@@ -98,6 +98,8 @@ end
 
 ## Useful aliases
 
+alias conda 'mamba'
+
 # Replace ls with exa
 alias ls 'exa -al --color=always --group-directories-first --icons' # preferred listing
 alias la 'exa -a --color=always --group-directories-first --icons'  # all files and dirs
@@ -106,7 +108,7 @@ alias lt 'exa -aT --color=always --group-directories-first --icons' # tree listi
 alias l. 'exa -ald --color=always --group-directories-first --icons .*' # show only dotfiles
 
 # Replace some more things with better alternatives
-alias cat 'batcat --style header --style snip --style changes --style header'
+alias cat 'batcat' 
 
 
 # Common use
